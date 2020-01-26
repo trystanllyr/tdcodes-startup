@@ -1,0 +1,56 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+    background: url(header.jpg) no-repeat center center fixed; /* Background will be the image. Background will be very flexible */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+hr {
+    border-color: teal;
+    border-width: 2px;
+    max-width: 75px;
+    border-radius: 10px;
+}
+
+.buffer-top {
+    height: 8rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: cadetblue;
+    border-color: whitesmoke;
+}
+
+.btn-primary:hover {
+    background-color: teal;
+    border-color: whitesmoke;
+    border-width: 2px;
+    cursor: crosshair;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
